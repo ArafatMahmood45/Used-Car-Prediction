@@ -54,8 +54,11 @@ This project predicts **used car prices** based on various features such as mile
 - Deploy model using **FastAPI + Docker** for real-time predictions.  
 
 ## 📌 How to Run  
-```bash
-git clone <repo_url>
-cd used-car-price-prediction
-pip install -r requirements.txt
-python train.py
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ArafatMahmood45/Used-Car-Prediction.git
+   cd used-cars-prediction
+
+   pip install -r requirements.txt
+
+   jupyter notebook used-cars-prediction.ipynb
